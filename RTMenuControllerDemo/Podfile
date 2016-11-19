@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+
+target 'RTMenuControllerDemo' do
+  use_frameworks!
+
+  pod 'RTMenuController', :path => '..'
+
+  target 'RTMenuControllerDemoTests' do
+    inherit! :search_paths
+  end
+
+  target 'RTMenuControllerDemoUITests' do
+    inherit! :search_paths
+  end
+
+end

@@ -1,0 +1,16 @@
+PODS:
+  - RTMenuController (0.0.1)
+
+DEPENDENCIES:
+  - RTMenuController (from `..`)
+
+EXTERNAL SOURCES:
+  RTMenuController:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  RTMenuController: 9f87cb5f1aaadba673352bdc4bcc475fd64aa6aa
+
+PODFILE CHECKSUM: 8d8bcad31ab7ed219abb42afcaf782acb094c5b4
+
+COCOAPODS: 1.0.1
