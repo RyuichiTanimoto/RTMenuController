@@ -1,5 +1,7 @@
 PODS:
-  - RTMenuController (0.0.1)
+  - RTMenuController (0.0.1):
+    - swift-utilities (~> 0.1.0)
+  - swift-utilities (0.1.0)
 
 DEPENDENCIES:
   - RTMenuController (from `..`)
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  RTMenuController: 9f87cb5f1aaadba673352bdc4bcc475fd64aa6aa
+  RTMenuController: eb0b4178870b112e13c197c11ab0d687d29a5d1c
+  swift-utilities: 9697196c696a8452cb2bf9b8e4f4b690b7727253
 
-PODFILE CHECKSUM: 8d8bcad31ab7ed219abb42afcaf782acb094c5b4
+PODFILE CHECKSUM: caba754dd6e097c6a752c5233b06ae4109576334
 
 COCOAPODS: 1.0.1
