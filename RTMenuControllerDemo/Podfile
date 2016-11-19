@@ -7,11 +7,11 @@ target 'RTMenuControllerDemo' do
   pod 'RTMenuController', :path => '..'
 
   target 'RTMenuControllerDemoTests' do
-    inherit! :search_paths
+    inherit! :complete
   end
 
   target 'RTMenuControllerDemoUITests' do
-    inherit! :search_paths
+    inherit! :complete
   end
 
 end

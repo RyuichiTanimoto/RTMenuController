@@ -14,9 +14,10 @@
 		6A40A8BE1DE0780D00DFFEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A40A8BC1DE0780D00DFFEFB /* LaunchScreen.storyboard */; };
 		6A40A8C91DE0780D00DFFEFB /* RTMenuControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40A8C81DE0780D00DFFEFB /* RTMenuControllerDemoTests.swift */; };
 		6A40A8D41DE0780D00DFFEFB /* RTMenuControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40A8D31DE0780D00DFFEFB /* RTMenuControllerDemoUITests.swift */; };
-		6BAC402B80FE2EB718C73E37 /* Pods_RTMenuControllerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5539E58D57BFF45EBF51EE9B /* Pods_RTMenuControllerDemoUITests.framework */; };
-		A443502C8D32D88DFBA93D15 /* Pods_RTMenuControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43377FFF5AFC0580588D0CA6 /* Pods_RTMenuControllerDemoTests.framework */; };
-		B08A396C812903CF147796C3 /* Pods_RTMenuControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB461B46A0B5A23E774B3C0 /* Pods_RTMenuControllerDemo.framework */; };
+		6AF8333B1DE221EB00A1A593 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8333A1DE221EB00A1A593 /* MenuController.swift */; };
+		D2D13896E0EB444079154A19 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB807EEF8223863F57707D9C /* Pods_RTMenuControllerDemo_RTMenuControllerDemoTests.framework */; };
+		D99B722A077ADDEA0DC03F02 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23235E692510612918D0EA3 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoUITests.framework */; };
+		D9F9FBD36D0F32BA2AA09A90 /* Pods_RTMenuControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B999B694F396E0ABF690F0F /* Pods_RTMenuControllerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BFAB2FE7F58EA6768D8882B /* Pods-RTMenuControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemoTests/Pods-RTMenuControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		3025B7E825D4A4D4C85534F8 /* Pods-RTMenuControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemoUITests/Pods-RTMenuControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C94EF2F26E9F84F12752ECF /* Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19162A6232F88A4B52A9066C /* Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests/Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32DA75E307E73814C2B6C071 /* Pods-RTMenuControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemo/Pods-RTMenuControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		43377FFF5AFC0580588D0CA6 /* Pods_RTMenuControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMenuControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5539E58D57BFF45EBF51EE9B /* Pods_RTMenuControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMenuControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B999B694F396E0ABF690F0F /* Pods_RTMenuControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMenuControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B369D631D783606945D9FFA /* Pods-RTMenuControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemo/Pods-RTMenuControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5B5F6E0145E0D3F60DC16A8E /* Pods-RTMenuControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemoUITests/Pods-RTMenuControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DB461B46A0B5A23E774B3C0 /* Pods_RTMenuControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMenuControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A40A8B01DE0780C00DFFEFB /* RTMenuControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTMenuControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A40A8B31DE0780D00DFFEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A40A8B51DE0780D00DFFEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +56,11 @@
 		6A40A8CF1DE0780D00DFFEFB /* RTMenuControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTMenuControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A40A8D31DE0780D00DFFEFB /* RTMenuControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTMenuControllerDemoUITests.swift; sourceTree = "<group>"; };
 		6A40A8D51DE0780D00DFFEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		804C252BDF326BB11D048049 /* Pods-RTMenuControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemoTests/Pods-RTMenuControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AF8333A1DE221EB00A1A593 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		CB807EEF8223863F57707D9C /* Pods_RTMenuControllerDemo_RTMenuControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMenuControllerDemo_RTMenuControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE18B6EF7BDF76421CFAD17 /* Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests/Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E23235E692510612918D0EA3 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMenuControllerDemo_RTMenuControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49D1A718E200B554FF466C /* Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08A396C812903CF147796C3 /* Pods_RTMenuControllerDemo.framework in Frameworks */,
+				D9F9FBD36D0F32BA2AA09A90 /* Pods_RTMenuControllerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A443502C8D32D88DFBA93D15 /* Pods_RTMenuControllerDemoTests.framework in Frameworks */,
+				D2D13896E0EB444079154A19 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BAC402B80FE2EB718C73E37 /* Pods_RTMenuControllerDemoUITests.framework in Frameworks */,
+				D99B722A077ADDEA0DC03F02 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,9 +94,9 @@
 		234EA270F7A99EC41B0345F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DB461B46A0B5A23E774B3C0 /* Pods_RTMenuControllerDemo.framework */,
-				43377FFF5AFC0580588D0CA6 /* Pods_RTMenuControllerDemoTests.framework */,
-				5539E58D57BFF45EBF51EE9B /* Pods_RTMenuControllerDemoUITests.framework */,
+				4B999B694F396E0ABF690F0F /* Pods_RTMenuControllerDemo.framework */,
+				CB807EEF8223863F57707D9C /* Pods_RTMenuControllerDemo_RTMenuControllerDemoTests.framework */,
+				E23235E692510612918D0EA3 /* Pods_RTMenuControllerDemo_RTMenuControllerDemoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,10 +106,10 @@
 			children = (
 				32DA75E307E73814C2B6C071 /* Pods-RTMenuControllerDemo.debug.xcconfig */,
 				5B369D631D783606945D9FFA /* Pods-RTMenuControllerDemo.release.xcconfig */,
-				804C252BDF326BB11D048049 /* Pods-RTMenuControllerDemoTests.debug.xcconfig */,
-				1BFAB2FE7F58EA6768D8882B /* Pods-RTMenuControllerDemoTests.release.xcconfig */,
-				5B5F6E0145E0D3F60DC16A8E /* Pods-RTMenuControllerDemoUITests.debug.xcconfig */,
-				3025B7E825D4A4D4C85534F8 /* Pods-RTMenuControllerDemoUITests.release.xcconfig */,
+				0C94EF2F26E9F84F12752ECF /* Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.debug.xcconfig */,
+				FF49D1A718E200B554FF466C /* Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.release.xcconfig */,
+				19162A6232F88A4B52A9066C /* Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.debug.xcconfig */,
+				CFE18B6EF7BDF76421CFAD17 /* Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -139,6 +141,7 @@
 			children = (
 				6A40A8B31DE0780D00DFFEFB /* AppDelegate.swift */,
 				6A40A8B51DE0780D00DFFEFB /* ViewController.swift */,
+				6AF8333A1DE221EB00A1A593 /* MenuController.swift */,
 				6A40A8B71DE0780D00DFFEFB /* Main.storyboard */,
 				6A40A8BA1DE0780D00DFFEFB /* Assets.xcassets */,
 				6A40A8BC1DE0780D00DFFEFB /* LaunchScreen.storyboard */,
@@ -333,7 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMenuControllerDemoTests/Pods-RTMenuControllerDemoTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		76BBF2C3D132D62A47277909 /* [CP] Copy Pods Resources */ = {
@@ -348,7 +351,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMenuControllerDemoTests/Pods-RTMenuControllerDemoTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests/Pods-RTMenuControllerDemo-RTMenuControllerDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EB9A105217E0DEA4A88754B /* [CP] Copy Pods Resources */ = {
@@ -363,7 +366,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMenuControllerDemoUITests/Pods-RTMenuControllerDemoUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests/Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		91D8738CFAEEF6A3F74EB2F7 /* [CP] Check Pods Manifest.lock */ = {
@@ -434,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A40A8B61DE0780D00DFFEFB /* ViewController.swift in Sources */,
+				6AF8333B1DE221EB00A1A593 /* MenuController.swift in Sources */,
 				6A40A8B41DE0780D00DFFEFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -557,6 +562,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -586,12 +592,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32DA75E307E73814C2B6C071 /* Pods-RTMenuControllerDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RTMenuControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyuichiTanimoto.RTMenuControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -599,18 +605,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B369D631D783606945D9FFA /* Pods-RTMenuControllerDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RTMenuControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyuichiTanimoto.RTMenuControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		6A40A8DC1DE0780D00DFFEFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 804C252BDF326BB11D048049 /* Pods-RTMenuControllerDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 0C94EF2F26E9F84F12752ECF /* Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -618,14 +624,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyuichiTanimoto.RTMenuControllerDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTMenuControllerDemo.app/RTMenuControllerDemo";
 			};
 			name = Debug;
 		};
 		6A40A8DD1DE0780D00DFFEFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BFAB2FE7F58EA6768D8882B /* Pods-RTMenuControllerDemoTests.release.xcconfig */;
+			baseConfigurationReference = FF49D1A718E200B554FF466C /* Pods-RTMenuControllerDemo-RTMenuControllerDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -633,35 +638,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyuichiTanimoto.RTMenuControllerDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTMenuControllerDemo.app/RTMenuControllerDemo";
 			};
 			name = Release;
 		};
 		6A40A8DF1DE0780D00DFFEFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B5F6E0145E0D3F60DC16A8E /* Pods-RTMenuControllerDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = 19162A6232F88A4B52A9066C /* Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RTMenuControllerDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyuichiTanimoto.RTMenuControllerDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RTMenuControllerDemo;
 			};
 			name = Debug;
 		};
 		6A40A8E01DE0780D00DFFEFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3025B7E825D4A4D4C85534F8 /* Pods-RTMenuControllerDemoUITests.release.xcconfig */;
+			baseConfigurationReference = CFE18B6EF7BDF76421CFAD17 /* Pods-RTMenuControllerDemo-RTMenuControllerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RTMenuControllerDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyuichiTanimoto.RTMenuControllerDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RTMenuControllerDemo;
 			};
 			name = Release;
