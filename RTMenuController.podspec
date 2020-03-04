@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'RTMenuController'
-  s.version = '0.0.1'
+  s.version = '0.1.0'
   s.swift_versions = '4.2'
   s.summary = 'A UIKit menu controller in swift'
   s.homepage = "https://github.com/RyuichiTanimoto/#{s.name}"
@@ -20,4 +20,8 @@ Pod::Spec.new do |s|
   s.source_files = "#{s.name}/**/*.swift"
   s.exclude_files = "#{s.name}/Exclude"
   s.requires_arc = true
+  s.xcconfig = {
+    'SWIFT_VERSION' => '3.0'
+  }
+  s.dependency 'swift-utilities', '~> 0.1.0'
 end

@@ -1,3 +1,4 @@
+source 'https://github.com/RyuichiTanimoto/cocoapods-private-specs.git'
 platform :ios, '8.0'
 
 target 'RTMenuControllerDemo' do
@@ -6,11 +7,11 @@ target 'RTMenuControllerDemo' do
   pod 'RTMenuController', :path => '..'
 
   target 'RTMenuControllerDemoTests' do
-    inherit! :search_paths
+    inherit! :complete
   end
 
   target 'RTMenuControllerDemoUITests' do
-    inherit! :search_paths
+    inherit! :complete
   end
 
 end
