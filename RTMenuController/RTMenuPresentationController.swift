@@ -13,7 +13,7 @@ internal class RTMenuPresentationController: UIPresentationController {
     
     private var overlay: UIView?
     
-    internal func overlayDidTouch(sender: AnyObject) {
+    @objc internal func overlayDidTouch(sender: AnyObject) {
         presentedViewController.dismiss(animated: true, completion: nil)
     }
     
