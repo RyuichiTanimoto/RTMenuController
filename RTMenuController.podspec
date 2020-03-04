@@ -20,5 +20,8 @@ Pod::Spec.new do |s|
   s.source_files = "#{s.name}/**/*.swift"
   s.exclude_files = "#{s.name}/Exclude"
   s.requires_arc = true
+  s.xcconfig = {
+    'SWIFT_VERSION' => '4.2'
+  }
   s.dependency 'swift-utilities', '~> 0.2.0'
 end
