@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'RTMenuController'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.swift_versions = '4.2'
   s.summary = 'A UIKit menu controller in swift'
   s.homepage = "https://github.com/RyuichiTanimoto/#{s.name}"
